@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="lwvWheelView">
+		<attr name="lwvHighlightColor" format="color|reference"/>
+		<attr name="lwvMarkColor" format="color|reference"/>
+		<attr name="lwvMarkTextColor" format="color|reference"/>
+		<attr name="lwvIntervalFactor" format="float"/>
+		<attr name="lwvMarkRatio" format="float"/>
+		<attr name="lwvCursorSize" format="dimension"/>
+		<attr name="lwvMarkTextSize" format="dimension"/>
+		<attr name="lwvCenterMarkTextSize" format="dimension"/>
+		<attr name="lwvAdditionalCenterMark" format="string|reference"/>
+		//2016/1/18 addBy gjj
+		<attr name="lwvshowLine" format="boolean"/>//是否显示虚线
+		<attr name="lwvshowTopIcon" format="boolean"/>//是否显示顶部指示
+	</declare-styleable>
+</resources>
